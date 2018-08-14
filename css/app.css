@@ -1,0 +1,273 @@
+/*========================*/
+/* GLOBAL ================*/
+/*========================*/
+h1,h2,h3,h4,h5,h6{
+	font-family: "clarendon-text-pro";
+	color:#505050;
+}
+h2{
+	font-size: 34px;
+	margin-bottom: 25px;
+}
+p,li{
+  font-family: 'futura-pt';
+  font-size: 20px;
+  color:#505050;
+}
+img{
+	width:100%;
+}
+.mb30{
+	margin-bottom: 30px;
+}
+.mb50{
+	margin-bottom: 50px;
+}
+section{
+	padding-bottom: 8%;
+}
+.body{
+	padding-top: 8%;
+	padding-bottom: 8%;
+}
+/*========================*/
+/* HERO SECTION ==========*/
+/*========================*/
+.hero{
+	background: url(../img/hero.png) center center no-repeat;
+	background-size: cover;
+	padding: 10% 0;
+}
+.hero h1{
+	color:#FFF;
+	font-size: 38px;
+	line-height: 1.3em;
+	
+}
+.hero p{
+	color:#ef8903;
+	font-size: 34px;
+	margin: 0;
+}
+
+/*========================*/
+/* MAIN CONTENT ==========*/
+/*========================*/
+
+/* Questions Section */
+
+
+/* Intro Section */
+
+
+/* Work Section */
+
+.icon{
+	text-align: center;
+}
+.icon img{
+	width:auto;
+}
+
+/*========================*/
+/* SIDEBAR ===============*/
+/*========================*/
+.sidebar{
+	background-color:#505050;
+	margin-top: -200px;
+}
+.sidebar h2{
+	margin: 0;
+	padding: 40px 50px 15px;
+	color:#FFF;
+	font-size: 30px;
+}
+
+/* Form Styles */
+.form-inputs{
+	padding: 0 50px 15px;
+}
+.form-inputs input{
+	margin-bottom: 20px;
+	color:#505050;
+	font-size: 20px;
+	text-align: center;
+}
+button[type=submit]{
+	color: #FFF;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: 600;
+	background-color: #ef8903;
+	width: 335px;
+	position: relative;
+	left: -15px;
+	padding: 20px 50px;
+	text-align: right;
+	font-family: 'futura-pt';
+	letter-spacing: 2px;
+	cursor: pointer;
+}
+button[type=submit]:active{
+	top: 2px;
+}
+button[type=submit]:focus{
+	outline: none;
+}
+button[type=submit] i{
+	font-size: 20px;
+}
+textarea{
+	resize:none;
+	color:#505050;
+	font-size: 20px;
+	text-align: center;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+#error{
+	padding: 0 50px;
+	color:#FFF;
+	margin-bottom:20px;
+	display: none;
+}
+.invalid{
+	border: 1px solid red;
+}
+.confirmation{
+	color: #FFF;
+	padding: 50px;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #9c9c9c;
+  font-size: 20px;
+  font-family: "futura-pt";
+  text-align: center;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+  color: #9c9c9c;
+  font-size: 20px;
+  font-family: "futura-pt";
+  text-align: center;
+}
+
+:-ms-input-placeholder { /* IE 10+ */
+  color: #9c9c9c;
+  font-size: 20px;
+  font-family: "futura-pt";
+  text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  color: #9c9c9c;
+  font-size: 20px;
+  font-family: "futura-pt";
+  text-align: center;
+}
+
+
+/*========================*/
+/* RESPONSIVE ============*/
+/*========================*/
+@media(max-width:1024px){
+
+	.sidebar h2{
+		padding: 15px 30px;
+	}
+	.confirmation{
+		padding: 40px 30px;
+	}
+	.form-inputs{
+		padding: 0 30px 15px;
+	}
+	button[type=submit]{
+		width: 295px;
+	}
+}
+
+@media(max-width:800px){
+
+	button[type=submit]{
+		width: 280px;
+	}
+	.icon br{
+		display: none;
+	}
+}
+@media(max-width:768px){
+
+	button[type=submit]{
+		width: 270px;
+	}
+}
+
+@media(max-width:640px){
+
+	main.grid-container{
+		padding: 0;
+	}
+	main .grid-margin-x{
+		margin: 0;
+	}
+	main .grid-margin-x > .cell{
+		margin: 0;
+		width: 100%;
+	}
+	h1,h2,h3,p,ul,.icon{
+		padding-left: 30px;
+		padding-right: 30px;
+		text-align: center;
+		list-style-type: none;
+	}
+	.questions ul{
+		margin-left: 0;
+	}
+	.questions li{
+		padding: 10px 0;
+	}
+	.sidebar{
+		margin-top: 0;
+		padding-bottom: 50px;
+	}
+	#interested{
+		text-align: center;
+		width: 100%;
+		background-color:#505050;
+		position:fixed;
+		bottom: 0;
+		padding: 10px 0;
+	}
+	#interested i{
+		color: #ef8903;
+	}
+	#interested h2{
+		margin: 0;
+		color: #FFF;
+	}
+	.invisible{
+		opacity: 0;
+	}
+}
+
+@media(max-width:320px){
+
+	h1,h2,h3,p,ul,.icon{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+@media(min-width:641px){
+
+	#interested{
+		display: none;
+	}
+	.form-sticky{
+		position: -webkit-sticky;
+		position: sticky;
+		top: -10px;
+	}
+}
