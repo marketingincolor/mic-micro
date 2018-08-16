@@ -22,17 +22,17 @@
 					<li>Do you need your website or online marketing to drive better results?</li>
 					<li>Are you launching a new product or service and need the perfect name, logo, and plan to ensure a flawless roll-out?</li>
 					<li>Do you feel like your marketing efforts aren't working as well as they once did?</li>
-					<li>Is your company struggling with its identity or market position due to acquisition, joint venture or market expansion?</li>
+					<li>Is your company struggling with its identity or market position due to acquisition, joint venture, or market expansion?</li>
 					<li>Are you looking for a fresh, new perspective? </li>
 				</ul>
 				<img src="img/we-know.png" alt="Tampa Marketing Consultants - We Know" class="mb50">
-				<p>If you answered "yes" to any of these, it's time to engage Tampa's premier marketing consultants for help. We are a team of strategic, imaginative, and passionate experts who understand that marketing and businesses evolve daily, and it's hard to keep up with the latest trends, platforms, and tools. But, that's where we shine!</p>
+				<p>If you answered "yes" to any of these questions, it's time to engage with Marketing In Color, Tampa's premier marketing team for help. We are a group of strategic, imaginative, and passionate experts who understand that marketing and businesses evolve daily, and it's hard to keep up with the latest trends, platforms, and tools. But, that's where we shine!</p>
 			</section>
 
 			<section class="intro">
-				<h2>Who Is Tampa's Best Marketing Consultant?</h2>
+				<h2>Who Is Tampa's Best Marketing Team?</h2>
 				<img src="img/who-we-are.png" alt="Tampa Marketing Consultants - Who We Are" class="mb50">
-				<p>We are marketing specialists who have been helping people like you achieve their objectives for more than 20 years. From developing marketing strategies to refreshing brands to launching new products or services, we can consult, recommend, and guide you from start to finish - and get the results you need.</p>
+				<p>We are marketing specialists who have been helping people like you achieve their objectives for more than 20 years. From developing marketing strategies to refreshing brands to launching new products or services, we can consult, recommend, and guide you from start to finish &mdash; and get the results you need.</p>
 			</section>
 
 			<section class="work">
@@ -44,7 +44,7 @@
 					</div>
 					<div class="cell medium-5 icon">
 						<img src="img/audit.png" alt="Website Audit">
-						<p>Website Audit Including User <br class="hide-for-small-only">Interface and User Experience</p>
+						<p>Website Audit</p>
 					</div>
 					<div class="cell medium-5 icon">
 						<img src="img/strategy.png" alt="Marketing Strategy">
@@ -76,7 +76,7 @@
 						<input type="text" name="company_name" placeholder="Company Name" id="cname" required>
 						<input type="number" name="phone_num" placeholder="Phone Number" id="phone" required>
 						<input type="email" name="email" placeholder="Email" id="email" required>
-						<textarea name="message" rows="4" placeholder="Tell us about your marketing needs." id="message"></textarea>
+						<textarea name="message" rows="3" placeholder="Tell us about your marketing needs." id="message"></textarea>
 					</div>
 					<div id="error"></div>
 					<button id="submit" type="submit" form="contact-form" value="Submit">Let's Talk&nbsp; <i class="fas fa-arrow-right"></i></button>
